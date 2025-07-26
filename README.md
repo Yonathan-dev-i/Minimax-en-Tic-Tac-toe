@@ -34,17 +34,17 @@ Numpy >= 1.24
 ## 🔧 Instalación
 Clona el repositorio:
 
-git clone https://github.com/tu-usuario/tres-en-raya-minimax.git
-cd tres-en-raya-minimax
-Crea y activa un entorno virtual (recomendado):
+- git clone https://github.com/tu-usuario/tres-en-raya-minimax.git
+- cd tres-en-raya-minimax
+- Crea y activa un entorno virtual (recomendado):
 
 python -m venv venv
 # Linux/Mac
 source venv/bin/activate
 # Windows
-.\venv\Scripts\activate
+- .\venv\Scripts\activate
 Instala las dependencias:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ## 🏃 Ejecución
 streamlit run app.py
@@ -59,24 +59,27 @@ Observa cómo la IA evalúa todas las posibilidades
 
 ## 🌳 Visualización del Árbol Minimax
 La aplicación muestra:
-Nodos MAX (IA) y MIN (Humano)
-Valores propagados hacia arriba
-Movimientos óptimos vs. descartados
-Estrategia de decisión en cada nivel
-Profundidad limitada para mejor rendimiento
+- Nodos MAX (IA) y MIN (Humano)
+- Valores propagados hacia arriba
+- Movimientos óptimos vs. descartados
+- Estrategia de decisión en cada nivel
+- Profundidad limitada para mejor rendimiento
 
 ## 📂 Estructura del Proyecto
-text
+
+```bash
 tres-en-raya-minimax/
 │
-├── app.py                # Lógica principal
-├── README.md             # Este archivo
-├── requirements.txt      # Dependencias
-├── assets/               # Recursos
-│   ├── images/           # Capturas
-│   └── demo.gif          # Demostración
-└── .gitignore            # Archivos excluidos
+├── app.py                # Lógica principal del juego
+├── README.md             # Documentación del proyecto
+├── requirements.txt      # Lista de dependencias
+├── assets/               # Directorio de recursos
+│   ├── images/           # Capturas de pantalla
+│   └── demo.gif          # GIF demostrativo
+└── .gitignore            # Archivos excluidos de Git
+
+
 ## ⚠️ Notas Importantes
-La IA juega perfectamente (nunca pierde)
-Las estadísticas persisten durante la sesión
-El árbol se limita a profundidad 3 por rendimiento
+- La IA juega perfectamente (nunca pierde)
+- Las estadísticas persisten durante la sesión
+- El árbol se limita a profundidad 3 por rendimiento
