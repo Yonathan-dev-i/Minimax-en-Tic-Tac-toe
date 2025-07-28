@@ -73,9 +73,6 @@ tres-en-raya-minimax/
 ├── app.py                # Lógica principal del juego
 ├── README.md             # Documentación del proyecto
 ├── requirements.txt      # Lista de dependencias
-├── assets/               # Directorio de recursos
-│   ├── images/           # Capturas de pantalla
-│   └── demo.gif          # GIF demostrativo
 └── .gitignore            # Archivos excluidos de Git
 
 
